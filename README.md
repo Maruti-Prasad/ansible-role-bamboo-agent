@@ -47,7 +47,7 @@ Service user name, primary group and ID for systemd (remote agent only).
     bamboo_agent_application_folder: "/opt/{{ bamboo_agent_user }}"
     bamboo_agent_data_folder: "/opt/{{ bamboo_agent_user }}/bamboo-agent-home"
 
-Path where to store application binaries and application data (remote agent
+Paths where to store application binaries and application data (remote agent
 only).
 
     bamboo_agent_jvm_memory: 768m
